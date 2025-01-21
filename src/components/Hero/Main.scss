@@ -1,5 +1,5 @@
 .main-bg {
-  background: url('public/img/background-main.png');
+  background: url('./public/img/background-main.png');
   background-repeat: no-repeat;
   border-bottom: 10px solid #e94662;
 
@@ -12,101 +12,99 @@
     padding-block: 55px;
     padding-inline: 20px;
 
-        .infos-main {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 25px;
+    .infos-main {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 25px;
 
-            h1 {
-                font-size: 2.188rem;
-                font-weight: 800;
-                text-transform: uppercase;
-                line-height: 1.25em;
-                color: #ffffff;
-            }
+      h1 {
+        font-size: 2.188rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 1.25em;
+        color: #ffffff;
+      }
 
-            span {
-                color: #e94662 !IMPORTANT;
-            }
+      span {
+        color: #e94662 !important;
+      }
 
-            p {
-                font-size: 1.125rem;
-                color: #ffffff;
-                max-width: 690px;
-            }
-        }
-
-        .Button-Green{
-            background: #29d353;
-            color: #ffffff;
-            text-align: center;
-            display: inline-block;
-            padding: 25px 100px;
-            border-radius: 50px;
-            box-shadow: 0px 5px 0px 0px #0B6220;
-            font-size: 1.25rem;
-            margin-bottom: 30px;
-            cursor: pointer;
-            transition: 0.3s;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .Button-Green:hover{
-            background: #ffffff;
-            color: #29d353;
-            box-shadow: 0px 5px 0px 0px #aeaeae;
-        }
-
-    .video-main{
-        max-width: 100%;
-        margin-bottom: 30px;
+      p {
+        font-size: 1.125rem;
+        color: #ffffff;
+        max-width: 690px;
+      }
     }
 
-    img{
-        width: 100%;
-        max-width: 454px;
+    .Button-Green {
+      background: #29d353;
+      color: #ffffff;
+      text-align: center;
+      display: inline-block;
+      padding: 25px 100px;
+      border-radius: 50px;
+      box-shadow: 0px 5px 0px 0px #0b6220;
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .Button-Green:hover {
+      background: #ffffff;
+      color: #29d353;
+      box-shadow: 0px 5px 0px 0px #aeaeae;
+    }
+
+    .video-main {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 454px;
     }
   }
 }
 
-
 @media (max-width: 768px) {
-    .main-container {
-        padding-block: 45px !important;
-        padding-inline: 15px;
-    
-            .infos-main {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-bottom: 25px;
-    
-                h1 {
-                    font-size: 1.28rem !important;
-                    line-height: 1.25em;
-                }
-    
-                p {
-                    font-size: 1rem !important;
-                    color: #ffffff;
-                    max-width: 690px;
-                }
-            }
-    
-            .Button-Green{
-                padding: 20px 30px !important;
-                border-radius: 50px;
-                font-size: 1.125rem !important;
-                margin-bottom: 30px;
-            }
-    
-        img{
-            width: 100%;
-            max-width: 320px !important;
-        }
+  .main-container {
+    padding-block: 45px !important;
+    padding-inline: 15px;
+
+    .infos-main {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 25px;
+
+      h1 {
+        font-size: 1.28rem !important;
+        line-height: 1.25em;
       }
-    
+
+      p {
+        font-size: 1rem !important;
+        color: #ffffff;
+        max-width: 690px;
+      }
+    }
+
+    .Button-Green {
+      padding: 20px 30px !important;
+      border-radius: 50px;
+      font-size: 1.125rem !important;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 320px !important;
+    }
+  }
 }

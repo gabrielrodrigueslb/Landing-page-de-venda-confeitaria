@@ -1,5 +1,5 @@
 .course-bg {
-  background: url('public/img/background-3.png') no-repeat center;
+  background: url('./public/img/background-3.png') no-repeat center;
   background-size: cover;
   .course-container {
     max-width: 1100px;
@@ -28,7 +28,7 @@
     }
 
     .img {
-        width: 100%;
+      width: 100%;
       max-width: 490px;
     }
   }

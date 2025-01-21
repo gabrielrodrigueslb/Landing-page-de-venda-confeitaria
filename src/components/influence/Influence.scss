@@ -1,5 +1,5 @@
 .influence-bg {
-  background: url('public/img/background-recomendacoes.png');
+  background: url('./public/img/background-recomendacoes.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +19,6 @@
     line-height: 1.25em;
     margin-bottom: 70px;
     text-align: center;
-    
   }
   span {
     color: #e94662;
@@ -35,70 +34,65 @@
       flex-direction: column;
       text-align: center;
 
-      img{
+      img {
         width: 5.625rem;
         margin-bottom: 20px;
       }
 
-      h2{
+      h2 {
         font-size: 1.32rem;
         margin-block: 8px 18px;
       }
 
-      p{
+      p {
         font-size: 1.063rem;
         font-weight: 300;
       }
     }
   }
-
 }
 
 @media (max-width: 728px) {
-    
-.influence-container {
+  .influence-container {
     padding: 60px 20px;
-  
+
     h1 {
       font-size: 1.8rem;
       line-height: 1.25em;
       margin-bottom: 60px;
       text-align: center;
-      
     }
     span {
       color: #e94662;
     }
-  
+
     .container-cards {
       display: grid;
       grid-template-columns: 1fr;
       gap: 60px;
-      
-  
+
       .card {
         display: flex;
         flex-direction: column;
         text-align: center;
-  
-        img{
+
+        img {
           width: 5.3rem;
           margin-bottom: 20px;
         }
-  
-        h2{
+
+        h2 {
           font-size: 1rem;
           margin-block: 8px 18px;
           color: #fff !important;
         }
-  
-        p{
-          font-size: .9rem;
+
+        p {
+          font-size: 0.9rem;
           font-weight: 300;
           color: #fff !important;
         }
       }
     }
-  
   }
 }
