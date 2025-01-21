@@ -10,7 +10,7 @@ export default function Course() {
           </h1>
           <img
             className="detalhe"
-            src="./public/img/detalhes-decoration-rosa.svg"
+            src="./img/detalhes-decoration-rosa.svg"
             alt="detalhes rosa"
           />
           <p>
@@ -22,7 +22,7 @@ export default function Course() {
         </div>
         <img
           className="img"
-          src="./public/img/vector-bolo-chocolate.png"
+          src="./img/vector-bolo-chocolate.png"
           alt="bolo de chocolate"
         />
       </div>

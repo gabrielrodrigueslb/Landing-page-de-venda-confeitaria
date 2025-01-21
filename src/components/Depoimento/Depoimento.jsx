@@ -6,7 +6,7 @@ export default function Depoimento() {
       <h1>Depoimentos de nossos Estudantes:</h1>
       <img
         className="detalhe"
-        src="./public/img/detalhes-decoration-rosa.svg"
+        src="./img/detalhes-decoration-rosa.svg"
         alt="detalhes rosa"
       />
       <p>
@@ -14,9 +14,9 @@ export default function Depoimento() {
         sucesso!
       </p>
       <div className="depoimentos">
-        <img src="./public/img/depoimento.png" alt="Depoimento1" />
-        <img src="./public/img/depoimento.png" alt="Depoimento2" />
-        <img src="./public/img/depoimento.png" alt="Depoimento3" />
+        <img src="./img/depoimento.png" alt="Depoimento1" />
+        <img src="./img/depoimento.png" alt="Depoimento2" />
+        <img src="./img/depoimento.png" alt="Depoimento3" />
       </div>
     </section>
   );
