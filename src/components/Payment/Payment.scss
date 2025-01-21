@@ -1,0 +1,159 @@
+.payment-bg {
+  background: url('public/img/background-main.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 10px solid #e94662;
+
+  .payment-container {
+    max-width: 780px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 55px;
+    padding-inline: 20px;
+
+    .infos-payment {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 25px;
+
+      h1 {
+        font-size: 2.188rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 1.25em;
+        color: #ffffff;
+      }
+
+      span {
+        color: #fff !important;
+        font-size: 1rem;
+      }
+
+      h2 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #ffffff;
+        max-width: 690px;
+      }
+    }
+
+    .Button-Green {
+      max-width: 320px;
+      background: #29d353;
+      color: #ffffff;
+      text-align: center;
+      display: block;
+      padding: 20px 30px;
+      border-radius: 50px;
+      box-shadow: 0px 5px 0px 0px #0b6220;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+      margin-inline: 10px;
+      margin-bottom: 25px;
+    }
+    .Button-Green:hover {
+      background: #ffffff;
+      color: #29d353;
+      box-shadow: 0px 5px 0px 0px #aeaeae;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+
+      .card {
+        max-width: 390px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #fff;
+      }
+
+      .title-background {
+        background: #e94662;
+        width: 100%;
+
+        .title {
+          font-size: 1rem;
+          text-align: center;
+          color: #fff;
+          font-weight: bold;
+          padding: 20px 0px;
+          width: 100%;
+          display: block;
+        }
+      }
+
+      .price {
+        font-size: 40px;
+        text-wrap: nowrap;
+        font-weight: 800;
+        margin-block: 20px;
+      }
+
+      .beneficios {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-bottom: 18px;
+
+        p {
+          color: #54595f;
+          font-size: 0.9rem;
+          position: relative;
+
+          &:before {
+            content: '';
+            width: 1rem;
+            height: 1rem;
+            left: -20px;
+            top: 1px;
+            background: url(public/img/check.svg) no-repeat;
+            background-size: cover;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .payment-container {
+    padding-block: 45px !important;
+
+    .infos-payment {
+      h1 {
+        font-size: 1.28rem !important;
+      }
+
+      p {
+        font-size: 1rem !important;
+      }
+
+      h2 {
+        font-size: 2.15rem !important;
+      }
+    }
+
+    .Button-Green {
+      padding: 20px 30px !important;
+      font-size: 1.125rem !important;
+    }
+
+    .card-container {
+      grid-template-columns: 1fr !important;
+      gap: 20px !important;
+    }
+  }
+}
