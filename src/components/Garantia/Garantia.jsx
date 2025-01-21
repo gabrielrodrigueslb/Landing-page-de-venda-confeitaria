@@ -4,7 +4,7 @@ export default function Garantia() {
   return (
     <section className="garantia-bg">
       <div className="garantia-container">
-        <img src="./public/img/garantia.png" alt="Garantia de 7 dias" />
+        <img src=".img/garantia.png" alt="Garantia de 7 dias" />
         <div className="infos">
           <h1>Zero risco! Garantia para você!</h1>
           <p>

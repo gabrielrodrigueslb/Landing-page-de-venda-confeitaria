@@ -9,7 +9,7 @@ export default function Influence() {
         </h1>
         <div className="container-cards">
           <div className="card">
-            <img src="./public/img/aula-confeitaria.svg" alt="confeitaria" />
+            <img src="./img/aula-confeitaria.svg" alt="confeitaria" />
             <h2>Você quer aprender a fazer deliciosos bolos caseiros?</h2>
             <p>
               Aprenda passo a passo a fazer receitas surpreendentes e cheias de
@@ -17,7 +17,7 @@ export default function Influence() {
             </p>
           </div>
           <div className="card">
-            <img src="./public/img/cozinheiro.svg" alt="cozinheiro" />
+            <img src="./img/cozinheiro.svg" alt="cozinheiro" />
             <h2>Você quer aprofundar seus conhecimentos?</h2>
             <p>
               Para você que já trabalha com bolos e quer aprimorar suas
@@ -25,7 +25,7 @@ export default function Influence() {
             </p>
           </div>
           <div className="card">
-            <img src="./public/img/loja.svg" alt="Loja" />
+            <img src="./img/loja.svg" alt="Loja" />
             <h2>Quer iniciar seu próprio negócio lucrativo.</h2>
             <p>
               Asse bolos profissionais e comece seu próprio negócio lucrativo.

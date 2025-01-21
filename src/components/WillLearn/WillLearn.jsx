@@ -6,13 +6,13 @@ export default function WillLearn() {
       <h1>veja o que você vai aprender:</h1>
       <img
         className="decoration"
-        src="./public/img/detalhes-decoration-rosa.svg"
+        src="./img/detalhes-decoration-rosa.svg"
         alt=""
       />
       <div className="card">
         <img
           className="img-learn"
-          src="./public/img/learn1.png"
+          src="./img/learn1.png"
           alt="Massa de bolo"
         />
         <div className="learn-infos">
@@ -27,7 +27,7 @@ export default function WillLearn() {
       <div className="card">
         <img
           className="img-learn"
-          src="./public/img/learn2.png"
+          src="./img/learn2.png"
           alt="Massa de bolo"
         />
         <div className="learn-infos">
@@ -41,7 +41,7 @@ export default function WillLearn() {
       <div className="card">
         <img
           className="img-learn"
-          src="./public/img/learn3.png"
+          src="./img/learn3.png"
           alt="Massa de bolo"
         />
         <div className="learn-infos">

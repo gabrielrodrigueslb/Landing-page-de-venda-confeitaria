@@ -10,7 +10,7 @@ export default function Details() {
           </h2>
           <img
             className="detail"
-            src="./public/img/detalhes-decoration-rosa.svg"
+            src="./img/detalhes-decoration-rosa.svg"
             alt="detalhes"
           />
           <p>
@@ -24,7 +24,7 @@ export default function Details() {
         </div>
         <img
           className="exemplo"
-          src="./public/img/bolo1.png"
+          src="./img/bolo1.png"
           alt="Bolo de exemplo"
         />
       </div>
